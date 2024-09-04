@@ -92,14 +92,6 @@ img {
   }
 }
 
-/*스크롤 시 nav*/
-.navbar-effect {
-  background-color: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  height: 7vh !important;
-}
-
 /*nav*/
 .nav h2 {
   font-size: 2.2rem;

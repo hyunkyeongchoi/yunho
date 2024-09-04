@@ -32,9 +32,13 @@
     }
 
     /*스크롤 시 nav*/
-    .navbar-effect {
-        padding: 0 12%;
-    }
+.navbar-effect {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    height: 7vh !important;
+    padding: 0 12%;
+  }
 
     #about {
         position: relative;
@@ -276,8 +280,11 @@
 
     /*스크롤 시 nav*/
     .navbar-effect {
+        background-color: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         padding: 5%;
-    }
+      }
 
     #about {
         position: relative;
