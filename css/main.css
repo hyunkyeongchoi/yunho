@@ -320,12 +320,12 @@
     .header-text p {
         font-size: 1.5rem;
         line-height: 2rem;
-        width: 95%;
+        width: 100%;
         margin: 10% auto 20%;
     }
 
     .header-text2 {
-        width: 95%;
+        width: 100%;
         margin: 0 auto 20%;
     }
 
