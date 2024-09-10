@@ -32,13 +32,13 @@
     }
 
     /*스크롤 시 nav*/
-        .navbar-effect {
+    .navbar-effect {
         background-color: rgba(0, 0, 0, 0.3);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         height: 7vh !important;
         padding: 0 12%;
-        }
+    }
 
     #about {
         position: relative;
@@ -110,8 +110,52 @@
         margin-bottom: 30px;
     }
 
-    .header-text3 h3 {
-        width: 420px !important;
+    /*images*/
+    .images-flex {
+        width: 70%;
+        margin: 0 auto 150px;
+    }
+
+    .images-flex div {
+        display: flex;
+    }
+
+    .images-flex div h3 {
+        font-size: 1.7rem;
+        font-weight: 400;
+        margin-bottom: 2%;
+    }
+
+    .images-flex div p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    .images-box {
+        width: 70%;
+    }
+
+    .images-box2 {
+        width: 125%;
+    }
+
+    .images-box3 {
+        width: 135%;
+    }
+
+    .images-box4 {
+        width: 142%;
+    }
+
+    .images-box5 {
+        width: 60%;
+    }
+
+    .column {
+        flex-flow: column;
+        justify-content: center;
+        margin-left: 5%;
     }
 
     #link-btn {
@@ -122,6 +166,7 @@
         background: none;
         display: inline-block;
         cursor: pointer;
+        text-decoration: underline;
     }
 
     /*Publications*/
@@ -172,6 +217,7 @@
 
     .Journal-flex {
         display: flex;
+        align-items: center;
     }
 
     .Journal-flex h4 {
@@ -195,7 +241,9 @@
         width: 140px !important;
     }
 
-    #publications>p {
+    /*Last updated*/
+    .Lastupdated-p {
+        width: 95%;
         font-size: 1.2rem;
         text-align: right;
         font-weight: 600;
@@ -226,6 +274,24 @@
     #contact p a {
         color: #000;
         border-bottom: 5px solid #000;
+    }
+
+    .expected {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        display: flex;
+        float: right;
+        margin: 2% 0 5% 0;
+    }
+
+    .expected::before {
+        content: "";
+        margin: 0 16px;
+        background: rgba(0, 0, 0, 1);
+        height: 1px;
+        top: 20px;
+        position: relative;
+        width: 40px;
     }
 
 }
@@ -286,7 +352,7 @@
         -webkit-backdrop-filter: blur(10px);
         padding: 5%;
         height: 14vh;
-      }
+    }
 
     #about {
         position: relative;
@@ -353,6 +419,7 @@
         background: none;
         display: inline-block;
         text-align: left;
+        text-decoration: underline;
     }
 
     /*Publications*/
@@ -410,13 +477,15 @@
     }
 
     .Journal-flex p {
-        font-size: 1.25rem;
-        line-height: 2rem;
+        font-size: 1.2rem;
+        line-height: 1.7rem;
         margin-bottom: 5%;
         font-weight: 400;
     }
 
-    #publications>p {
+
+    /*Last updated*/
+    .Lastupdated-p {
         font-size: 1.2rem;
         text-align: center;
         font-weight: 600;
