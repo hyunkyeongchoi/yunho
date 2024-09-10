@@ -466,9 +466,7 @@
         margin-bottom: 5%;
     }
 
-    .Journal-flex {
-        display: flex;
-    }
+    .Journal-flex {}
 
     .Journal-flex h4 {
         font-size: 1.5rem;
@@ -520,5 +518,44 @@
         color: #000;
         border-bottom: 5px solid #000;
     }
+
+    /*images*/
+    .images-box {
+        margin-bottom: 2%;
+    }
+
+    .column {
+        margin-bottom: 15%;
+    }
+
+    .column h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .images-box2 {
+        margin-bottom: 2%;
+    }
+
+    .expected {
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        display: flex;
+        width: 100%;
+        float: right;
+        justify-content: flex-end;
+        margin-bottom: 15%;
+    }
+
+    .expected::before {
+        content: "";
+        margin: 0 16px;
+        background: rgba(0, 0, 0, 1);
+        height: 1px;
+        top: 20px;
+        position: relative;
+        width: 40px;
+    }
+
 
 }
